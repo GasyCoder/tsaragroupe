@@ -29,7 +29,7 @@ app/
   page.tsx                      Accueil
   groupe/                       Le Groupe
   activites/                    Vue globale
-  activites/[slug]/             Template commun des 7 activités
+  activites/[slug]/             Template commun des activités
   implantations/                Implantations de la Clinique
   actualites/                   Actualités (API prête)
   contact/                      Contact
@@ -46,7 +46,7 @@ components/
   placeholder.tsx               Marqueurs « à compléter »
 lib/
   site.ts                       Coordonnées, navigation
-  data/activities.ts            Source unique des 7 activités
+  data/activities.ts            Source unique des activités
   data/news.ts                  getLatestNews() : démo ou API
   data/values.ts
   contact-schema.ts

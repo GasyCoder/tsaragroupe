@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">ISPSG Mampikony</title>
+  <desc id="desc">Identité visuelle de l'Institut Supérieur Paramédical Saint Georges</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082a70"/>
+      <stop offset="1" stop-color="#1f5aa8"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#44dce5"/>
+      <stop offset="1" stop-color="#75eef1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <circle cx="1030" cy="80" r="310" fill="#ffffff" opacity=".04"/>
+  <circle cx="1050" cy="690" r="380" fill="#44dce5" opacity=".08"/>
+  <path d="M0 650 410 420l300 145 490-300v495H0Z" fill="#061f54" opacity=".42"/>
+  <g transform="translate(92 105)">
+    <circle cx="122" cy="122" r="108" fill="#fff"/>
+    <circle cx="122" cy="122" r="91" fill="none" stroke="#ffd817" stroke-width="13"/>
+    <path d="M122 56v132M56 122h132" stroke="#123f91" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="122" cy="122" r="29" fill="url(#cyan)"/>
+  </g>
+  <text x="365" y="245" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="142" font-weight="800" letter-spacing="-5">ISPSG</text>
+  <rect x="370" y="282" width="620" height="8" rx="4" fill="#ffd817"/>
+  <text x="370" y="350" fill="url(#cyan)" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700">INSTITUT SUPÉRIEUR PARAMÉDICAL</text>
+  <text x="370" y="401" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="38" font-weight="650">SAINT GEORGES · MAMPIKONY</text>
+  <g transform="translate(94 560)">
+    <rect width="470" height="74" rx="14" fill="#ffd817"/>
+    <text x="235" y="49" text-anchor="middle" fill="#082a70" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800">SAGE-FEMME</text>
+  </g>
+  <g transform="translate(590 560)">
+    <rect width="516" height="74" rx="14" fill="#fff"/>
+    <text x="258" y="49" text-anchor="middle" fill="#123f91" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="800">INFIRMIER GÉNÉRALISTE</text>
+  </g>
+</svg>
